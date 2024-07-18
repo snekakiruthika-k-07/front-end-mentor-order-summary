@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <style>
+        body {
+            background-color: rgb(219, 248, 239);
+        }
+        .container {
+            height: 600px;
+            width: 300px;
+            border-radius: 25px;
+            border-style: solid;
+            border-color: rgb(219, 248, 239);
+            margin-top: 20px;
+            margin-left: 300px;
+            background-color: rgb(255, 255, 255);
+        }
+        img {
+            border-radius: 25px 25px 0px 0px;
+            width: 100%;
+        }
+        .container1 {
+            margin: 20px;
+        }
+        .circle {
+            border-radius: 50%;
+            height: 25px;
+            width: 25px;
+            background-color: rgb(49, 49, 49);
+            color: white;
+            text-align: center;
+            line-height: 25px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        h2 {
+            display: inline;
+        }
+        .audio-plan {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        a {
+            margin-left: 30px;
+            vertical-align: middle;
+            margin-bottom: -10px;
+        }
+        .proceed, .cancel {
+            height: 35px;
+            width: 250px;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 10px;
+            border: none;
+            font-size: 16px;
+            text-align: center;
+        }
+        .proceed {
+            background-color: blue;
+            color: white;
+        }
+        .cancel {
+            background-color: rgb(252, 239, 239);
+            color: blue;
+        }
+        .content {
+            background-color: antiquewhite;
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="music man.jpg" alt="Music Man" height="250px" width="300px">
+        <div class="container1">
+            <center><h1>Order Summary</h1></center>
+            <center>
+                <p>You can now listen to songs,<br>
+                audiobooks, and podcasts on any device <br>
+                anywhere you like!</p>
+            </center>
+            <div class="content">
+                <div class="circle">🎵</div>
+                <div class="audio-plan">
+                    <h2>Annual Plan<br>$59.99/year</h2>
+                    <a href="#">Change</a>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="proceed"><b>Proceed to Payment</b></button>
+                <button class="cancel"><b>Cancel Order</b></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
